@@ -1,16 +1,16 @@
 # 1CoreOsSim
 This project simulates some of the job and CPU scheduling of a time-shared operating system. 
 It can handle 6 different events.  
-A, I, & D, & E, C, & T - Arrived, Input, Display, Time expired, I/O Complete,and Terminated respectively.
+A, I, & D, & E, C, & T - Arrived, Input, Display, Time expired, I/O Complete,and Terminated respectively.<br />
 All events arrive in ascending order of time and no two events arrive at the same time.
 
-Examples of events
-Event Time Job Memory Run Time
-A     1     1  24     200
-Event Time I/O Burst Time
-I     1     85
-Event Time
-D     2
+Examples of events<br />
+Event Time Job Memory Run Time<br />
+A     1     1  24     200<br />
+Event Time I/O Burst Time<br />
+I     1     85<br />
+Event Time<br />
+D     2<br />
 
 There are five queues. Job Scheduling Queue, Ready Queue level1, Ready Queue level 2, I/O Wait Queue, and Finished Queue.
 All the queues are maintained in FIFO order except for I/O Wait Queue. I/O Wait Queue is a priority queue. 
