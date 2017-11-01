@@ -22,3 +22,5 @@ the burst time completes. It is then sent to ready queue level 1. Once the job i
 The D event which is Display, prints all the contents of the 5 queues and gives the memory available in the system. 
 
 This project gets the input from STDIN and gives the output to STDOUT. 
+
+Also this project was done in one night.
